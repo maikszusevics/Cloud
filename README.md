@@ -96,3 +96,42 @@ npm start
 - Do not delete anyone else's services
 
 - DO NOT share AWS account details or keys with anyone - so don't push them to github
+
+
+
+
+## Setting up DB machine 
+
+Use previous guide, this time include TCP port 27017 for your app to connect.
+
+Once inside the DB VM, run these commands to install dependencies:
+```
+sudo apt-get update
+sudo apt-get upgrade -y
+        
+# retrieves key from mongodb
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv D68FA50FEA312927
+echo "deb https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
+        
+# updates ubuntu
+sudo apt-get update
+sudo apt-get upgrade -y
+        
+sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20
+
+sudo Nano /etc/mongod.conf # Edit the IP in this to be your app machine's IP
+
+# enables and starts mongodb
+sudo systemctl restart mongod
+sudo systemctl enable mongod
+```
+
+##### Now back inside APP machine
+
+Create environment varaible for DB_HOST by running:
+```
+export DB_HOST=mongodb://DBMACHINEIP/posts
+```
+Navigate to `app/seeds`, run command `sudo node seed.js`, then `cd ..`, and `npm start` again.
+
+![image](https://user-images.githubusercontent.com/110176257/185666440-a9187028-b175-4be3-92ca-fad2805c8fa0.png)
