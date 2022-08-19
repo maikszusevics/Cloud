@@ -81,6 +81,10 @@ npm start
 ![image](https://user-images.githubusercontent.com/110176257/185454174-bf841931-427c-48a9-a952-efc6a801dd6e.png)
 
 
+![image](https://user-images.githubusercontent.com/110176257/185581581-6833113c-999a-477c-ba9a-ba3d92471443.png)
+
+
+
 # Sparta guidelines for AWS usage
 
 - AWS naming convention for services - group_person_task - for example - eng122_Shahrukh_ec2
