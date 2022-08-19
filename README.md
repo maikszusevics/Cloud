@@ -1,6 +1,6 @@
 # Cloud
 
-##AWS Global infrastructure
+## AWS Global infrastructure
 
 
 ![image](https://user-images.githubusercontent.com/110176257/185669702-2bd82026-a73e-4712-88ef-9c726f9f5cf2.png)
