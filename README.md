@@ -78,11 +78,17 @@ npm start
 
 
 
-
-
-
-
-
-
-
 ![image](https://user-images.githubusercontent.com/110176257/185454174-bf841931-427c-48a9-a952-efc6a801dd6e.png)
+
+
+# Sparta guidelines for AWS usage
+
+- AWS naming convention for services - group_person_task - for example - eng122_Shahrukh_ec2
+
+- When not in use (09:00 - 18:00) terminate. It costs money to run. Ask if you want to run out of hours, so that it can be authorised.
+
+- for the duration of this course ensure you are logged in in Ireland - Europe (Ireland) eu-west-1.
+
+- Do not delete anyone else's services
+
+- DO NOT share AWS account details or keys with anyone - so don't push them to github
