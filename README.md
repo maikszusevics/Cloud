@@ -183,7 +183,7 @@ Navigate to `app/seeds`, run command `sudo node seed.js`, then `cd ..`, and `npm
 
 
 
-# Provisioning an EC2 instance 
+# Provisioning an EC2 instance at `user details`
 
 First we will launch an instance like we did earlier in the document:
 
@@ -196,5 +196,38 @@ First we will launch an instance like we did earlier in the document:
 ### Add provisioning script at the bottom of Configure Instance Details section User Details
 
 ![image](https://user-images.githubusercontent.com/110176257/185922969-b9aae500-5a25-4b59-8ead-53a89bf9318c.png)
+
+
+
+# AMIs (Amazon Machine Images)
+
+A machine image is an operating system, including all of the data that was on this system at the time the image was created. Any software installed, configurations made, data stored, will all be on the image as well.
+
+AMIs in this example:
+
+![clout](https://user-images.githubusercontent.com/110176257/185962075-0038436d-bb9e-42e0-be79-40df24823442.png)
+
+The image shows how the EC2 instances are created using an AMI, and then an AMI is created out of the instance we created and modified.
+
+In order to create a new AMI from an existing instance, you must go to the ec2 dashboard, then instances, and then select the isntance you wish to image.
+
+Once selected, open the `actions` ribbon and select `image and templates`
+
+![image](https://user-images.githubusercontent.com/110176257/185963825-a2c5d770-7e2c-4896-adb2-e6ae1e3d59cd.png)
+
+and from here click `create image`
+
+- Give it a name and description
+
+![image](https://user-images.githubusercontent.com/110176257/185964249-41a46555-5891-40b3-875e-2c8d36fa4fd7.png)
+
+- REMEMBER to follow proper naming conventions, it is important 
+- Create image
+
+![image](https://user-images.githubusercontent.com/110176257/185964367-f578927c-dabf-4634-b0ff-ad83e43ccf2c.png)
+
+
+
+
 
 
