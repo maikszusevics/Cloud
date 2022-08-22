@@ -180,3 +180,21 @@ export DB_HOST=mongodb://DBMACHINEIP/posts
 Navigate to `app/seeds`, run command `sudo node seed.js`, then `cd ..`, and `npm start` again.
 
 ![image](https://user-images.githubusercontent.com/110176257/185666440-a9187028-b175-4be3-92ca-fad2805c8fa0.png)
+
+
+
+# Provisioning an EC2 instance 
+
+First we will launch an instance like we did earlier in the document:
+
+- Select the same Ubuntu 18.04 AMI
+
+![image](https://user-images.githubusercontent.com/110176257/185911520-c8d8fa1b-3c9b-4340-a0e7-a4832548e46a.png)
+
+- Default T2 hardware settings as this will only be an example
+
+### Add provisioning script at the bottom of Configure Instance Details section User Details
+
+![image](https://user-images.githubusercontent.com/110176257/185922969-b9aae500-5a25-4b59-8ead-53a89bf9318c.png)
+
+
