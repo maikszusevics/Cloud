@@ -1,25 +1,23 @@
 # Cloud
 
+![image](https://user-images.githubusercontent.com/110176257/185875226-ecc9aa30-921e-477b-a048-98538d965282.png)
+
+
+## What is cloud computing
+
+![image](https://user-images.githubusercontent.com/110176257/185875183-78cae1b5-d9c2-4206-954e-db57503285ea.png)
+
+
 ## AWS Global infrastructure
 
 
-![image](https://user-images.githubusercontent.com/110176257/185669702-2bd82026-a73e-4712-88ef-9c726f9f5cf2.png)
+![image](https://user-images.githubusercontent.com/110176257/185875309-fc36dfa4-7c14-4b9e-8a2d-b8c39b73f80d.png)
 
-The AWS hardware is interconnected using a highly available, low latency private network infrastructure with fully redundant 100GbE trans-oceanic fibre cables. It provides services in over 240 Countries and Territories. The global infrastructure leads in availability, flexibility, and performance. It also has many security features.
+## SAAS (software as a service)
 
-### SAAS (software as a service)
-SAAS refers to the cloud provider hosting applications and making them available to end users globally.
+![image](https://user-images.githubusercontent.com/110176257/185875520-400cfd81-1be2-49e8-8e56-2da62df1fb4a.png)
 
-Some of the main benefits of SAAS are:
 
-- Cost efficient
-- No hardware costs
-- Pay only for what you use
-- Easy implementation
-- Less operational hassle
-- No hardware installation
-- Quicker updates
-- Access to richer functionality such as analytics
 
 Some of the drawbacks of SAAS include:
 
@@ -29,28 +27,18 @@ Some of the drawbacks of SAAS include:
 
 
 ### PAAS (platform as a service)
-PAAS refers to having a complete development and/or deployment environment hosted on the cloud.
 
-Some of the main benefits of PAAS are:
 
-- Rapid delivery of new capabilities
-- Scalable
-- Flexible
-- Faster time to market
-- Economical cost of tools
-- Less operations required
+![image](https://user-images.githubusercontent.com/110176257/185875808-6a7d249a-1492-485b-856c-7b87a8e9d3af.png)
+
+
 - When we are creating VM's on amazon AWS, we are using AWS Platform As A Service.
 
 ### IAAS (infrastructure as a service)
 Infrastructure as a cloud service aims to provide all of the building blocks of an IT system, including machines, globally available applications/services, and data storage.
 
-- No maintainance resposibilities
-- On-demand access
-- Constant monitoring
-- Less downtime
-- Improved security
-- Enterprise grade infrastructure
-- Pay per use
+![image](https://user-images.githubusercontent.com/110176257/185876327-16d93435-f175-4c7d-9d77-7085a9615a62.png)
+
 
 
 
