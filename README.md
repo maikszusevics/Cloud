@@ -195,6 +195,9 @@ First we will launch an instance like we did earlier in the document:
 
 ### Add provisioning script at the bottom of Configure Instance Details section User Details
 
+- Make sure you add the first line as `#!/bin/bash` 
+- DO NOT try to `npm start` in this script, it will break 
+
 ![image](https://user-images.githubusercontent.com/110176257/185922969-b9aae500-5a25-4b59-8ead-53a89bf9318c.png)
 
 
