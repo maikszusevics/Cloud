@@ -265,6 +265,11 @@ Now on APP machine, navigate to app/seeds/ and use command `sudo node seed.js`
 
 ![image](https://user-images.githubusercontent.com/110176257/186114189-7d9418cd-dc1c-45f2-941d-14c871e3a9e4.png)
 
-If you see the message "database cleared, database seeded" it has worked.
+If you see the message "database cleared, database seeded" it has worked, and you can go back to app by `cd ..` and then `npm start`.
+
+If you've followed all the steps, you should be able to see the posts page as well as the default.
+
+![image](https://user-images.githubusercontent.com/110176257/186115117-38063cc0-3f22-4507-b298-a1eca4ed941d.png)
+
 
 
