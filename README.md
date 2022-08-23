@@ -288,5 +288,8 @@ You can lower tha chances of this by:
 
 ![disaster](https://user-images.githubusercontent.com/110176257/186161523-0b7efed5-cabc-4db7-962d-620c1b16e644.png)
 
+
+![image](https://user-images.githubusercontent.com/110176257/186168870-44b62756-7f87-4d5d-afba-f980928b1ebb.png)
+
 ## Amazon S3
 
