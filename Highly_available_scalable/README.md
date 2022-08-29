@@ -23,6 +23,9 @@ Three main types of **scaling policy** are:
 
 Auto Scaling groups can span multiple availability zones in a region (e.g eu-west-1a, eu-west-1b, eu-west-1c). This helps to ensure high availability because it means that one AZ going down wont be a **single point of failure** in your system.
 
+
+![asg](https://user-images.githubusercontent.com/110176257/187237566-351336f1-87f0-4b31-ba89-6aff95aa400a.png)
+
 ## High availability 
 high availability is defined as the capability of a system to operate without failing for an extended period of time. High availability of cloud based services is critical to their benefit over locally hosted servers, as without it they would be too unreliable.
 
