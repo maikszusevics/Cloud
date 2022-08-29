@@ -60,3 +60,42 @@ The network load balancer routes traffic at the fourth (TCP) layer and routes tr
 The elastic load balancer works at both layer 4 (TCP) and 7 (HTTP) and is the only load balancer that works in EC2-Classic. It was released before the ALB and NLB, and supports less features, it is therefore mainly used in legacy systems with EC2-classic instances.
 
 
+## Creating an Auto Scaling group
+
+From the AWS EC2 dashboard, select **Auto Scaling groups** at the bottom of left side of the page
+
+![image](https://user-images.githubusercontent.com/110176257/187243248-9179cf98-b913-48f1-a575-d224fb643ecf.png)
+
+
+- Name your ASG and select template instance
+
+![image](https://user-images.githubusercontent.com/110176257/187243705-f08ee098-6711-4760-890b-d26a6fdd83bb.png)
+
+- Select VPC and multiple subnets for high availability 
+
+![image](https://user-images.githubusercontent.com/110176257/187244301-22f27139-acb4-45d9-bea1-d12e002d1b26.png)
+
+- Configure load balancer
+
+![image](https://user-images.githubusercontent.com/110176257/187244496-2d3ff623-04f9-40f3-9ad8-c7b5e71675a3.png)
+
+- We use an ALB (because our application uses HTTP protocol) and internet facing load balancer, so that our app is globally available.
+
+![image](https://user-images.githubusercontent.com/110176257/187244745-df1eb167-f9b9-4109-9697-0eba53d4498d.png)
+
+- Create new target group or use existing
+
+- Determine group size and scaling policy
+
+![image](https://user-images.githubusercontent.com/110176257/187245331-4b7ba0f4-908a-4813-b943-dba30c584cbb.png)
+
+
+- Add name tag to name EC2 instances
+
+![image](https://user-images.githubusercontent.com/110176257/187246161-4dc8443b-1a61-48bd-b549-c1268518c502.png)
+
+
+- Select **create auto scaling group**
+
+![image](https://user-images.githubusercontent.com/110176257/187246278-e26fe872-39cf-4ef2-bfac-a231405ed8a9.png)
+
