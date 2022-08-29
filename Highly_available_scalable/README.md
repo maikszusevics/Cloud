@@ -60,7 +60,7 @@ The network load balancer routes traffic at the fourth (TCP) layer and routes tr
 The elastic load balancer works at both layer 4 (TCP) and 7 (HTTP) and is the only load balancer that works in EC2-Classic. It was released before the ALB and NLB, and supports less features, it is therefore mainly used in legacy systems with EC2-classic instances.
 
 
-## Creating an Auto Scaling group
+## Creating an Auto Scaling group with an Application Load Balancer
 
 From the AWS EC2 dashboard, select **Auto Scaling groups** at the bottom of left side of the page
 
