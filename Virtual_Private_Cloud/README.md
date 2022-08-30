@@ -3,7 +3,8 @@
 Virtual Private Cloud on AWS is a service which allows users to launch AWS resources into a user-defined virtual network.
 It is logically isolated from other virtual networks in the AWS Cloud.
 
-![image](https://user-images.githubusercontent.com/110176257/187454922-7bb02e46-ce12-4c1b-a5f0-77a42374cb20.png)
+![vpc](https://user-images.githubusercontent.com/110176257/187465102-9c42a65e-3d6a-4dc1-b4c0-165e797c910c.png)
+
 
 ### Subnets
 A subnet is a range of addresses in your VPC. Subnets reside in single AZs. 
