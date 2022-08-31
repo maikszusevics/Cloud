@@ -49,7 +49,39 @@ An IPv4 CIDR block expands upon the IPv4 4 groups of digits by adding a forwards
 ### **step 4: Create route table and edit rules**
 
 - edit to allow internet gateway
+- Change main route table to your created route table 
 
+![image](https://user-images.githubusercontent.com/110176257/187729685-10c154a6-546a-4bd0-9adc-5183636a80d4.png)
+
+
+## Deploying app with all pages working
+### Create private subnet
+- Go to VPC dashboard
+- Select "subnets"
+- Select "create subnet"
+- Select your VPC
+- Make up an unused CIDR block 
+- add name tag 
+
+- Create route table for private subnet, **DO NOT ADD INTERNET GATEWAY TO PRIVATE SUBNET**
+
+![image](https://user-images.githubusercontent.com/110176257/187729452-94a85c5c-191e-4caf-8b53-05681d24c822.png)
+
+
+### Launch DB AMI on *private* subnet:
+*note: do not need to ssh into db*
+
+
+### Launch App AMI on public subnet
+*note: my AMI runs app on launch:*
+![image](https://user-images.githubusercontent.com/110176257/187729915-f65ca4d4-8e20-4d75-b241-75a2e6b49e75.png)
+- SSH into app machine 
+- Edit `.bashrc` file to change `DB_HOST` variable with new **private** IP address of DB machine
+- run `source .bashrc` to enable the change 
+- run `node seed.js` in `app/seeds/`
+- run `npm start`
+
+![image](https://user-images.githubusercontent.com/110176257/187732729-e3d03de2-2874-4396-b65b-99fd5f3e7828.png)
 
 
 
