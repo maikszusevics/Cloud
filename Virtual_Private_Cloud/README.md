@@ -40,7 +40,7 @@ An IPv4 CIDR block expands upon the IPv4 4 groups of digits by adding a forwards
 
 - Attatch to VPC by selecting gateway and selecting attatch option in **actions**
 
-### **step 3: create a public subnet (10.0.5.0/24)
+### **step 3: create a public subnet (10.0.5.0/24)**
 
 - Select **subnets** from left column in VPC dashboard
 - Select **create subnet** on top right 
