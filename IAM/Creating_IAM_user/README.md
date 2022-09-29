@@ -6,7 +6,7 @@ Once in the IAM dashboard, navigate to the **users** section by selecting it on 
 
 ![image](https://user-images.githubusercontent.com/110176257/193111572-0e96eb8b-7665-41f4-8fa5-1220be89282d.png)
 
-From here you will see a button labelled "Add users"
+From here you will see a button labeled "Add users"
 
 ![image](https://user-images.githubusercontent.com/110176257/193111730-2e6d5906-54db-45b0-8f93-8c5d0be597bf.png)
 
@@ -21,7 +21,7 @@ After completing the user details page and clicking the "permissions" button you
 
 ![image](https://user-images.githubusercontent.com/110176257/193113894-c75f0853-37ff-4738-b7a2-74fbadf42872.png)
 
-One you click on "create group", you will be shown this interface where you can name your group and assign premade policies, which includes administrator access.
+Once you click on "create group", you will be shown this interface where you can name your group and assign premade policies, which includes administrator access.
 
 ![image](https://user-images.githubusercontent.com/110176257/193114313-3cee8887-4685-4731-a4c0-f545e71dc4e8.png)
 
