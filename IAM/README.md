@@ -1,12 +1,11 @@
-# IAM 
 
-### **IAM basics**
+# **IAM basics**
 IAM stands for **identity and access management**, IAM is not a region specific service, it is global and users/groups are created accross all regions.
 
 IAM users, groups, and policies are initially set up by the AWS **root user**
 
 
-### IAM groups and users
+## IAM groups and users
 
 The first user that is created when you make an AWS account is the **root user**.
 The root user has all the permissions, making it the most powerful user. However, especially in large organisations, the most powerful user is also the most dangerous user as you can accidentally cause irreprable damage to the cloud infrastructure or data storage. 
@@ -21,3 +20,6 @@ In best practise, the ***root user*** is only used to create the accounts and IA
 - Users can belong to multiple groups
 
 ![image](https://user-images.githubusercontent.com/110176257/193119594-a268646a-70d6-4a47-85f6-2075910b5370.png)
+
+
+## IAM policies
