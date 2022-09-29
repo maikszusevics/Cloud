@@ -20,3 +20,4 @@ In best practise, the ***root user*** is only used to create the accounts and IA
 - Users dont have to belong to a group 
 - Users can belong to multiple groups
 
+![image](https://user-images.githubusercontent.com/110176257/193119594-a268646a-70d6-4a47-85f6-2075910b5370.png)
