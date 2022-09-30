@@ -23,3 +23,25 @@ In best practise, the ***root user*** is only used to create the accounts and IA
 
 
 ## IAM policies
+An IAM policy defines the permissions of a group, role, or user. 
+Most policies are inherited from groups, a policy is assigned at the group level and all users assigned to this group inherit the permissions set by the policy. A policy can also be made for a user that's not in a group, these are called **inline** policies. 
+- Users that are members of multiple groups inhrerit policies from all groups they are in
+- Policies are defined in JSON documents
+
+### IAM JSON structure
+Here is an example JSON file that defines an IAM policy:
+
+![image](https://user-images.githubusercontent.com/110176257/193251215-40cb311b-910d-4557-8bf7-c9080ebbb690.png)
+
+
+- Version: policy language version, always include "2012-10-17"
+- Id: Identifier for the policy (optional)
+- Statement: one or more individual statements 
+  - Sid: an identifier for the statement (optional)
+  - Effect: whether the statement allows or denies access to certain APIs 
+  - Principal: account/user/role to which the policy is applied to 
+  - Action: list of actions this policy allows or denies
+  - Resource: list of resources to which the actions apply to 
+  - Condition: conditions for when this policy is in effect (optional)
+  
+  
